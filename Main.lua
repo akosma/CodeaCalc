@@ -1,4 +1,5 @@
 function setup()
+    supportedOrientations(LANDSCAPE_LEFT)
     standardCalculator = StandardCalculator()
 end
 
@@ -9,4 +10,3 @@ end
 function touched(touch)
     standardCalculator:touched(touch)
 end
-
